@@ -5,10 +5,10 @@ public class BMICalculator {
         Scanner scanner = new Scanner(System.in);
         double weight, height, bmi;
 
-        System.out.print("Your weight (in kilogram):");
+        System.out.print("Please enter your weight in kilogram:");
         weight = scanner.nextDouble();
 
-        System.out.print("Your height (in meter):");
+        System.out.print("Please enter your height in meter:");
         height = scanner.nextDouble();
 
         bmi = weight / Math.pow(height, 2);
